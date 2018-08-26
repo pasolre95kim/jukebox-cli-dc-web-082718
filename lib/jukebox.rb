@@ -20,7 +20,7 @@ def help
   puts "- exit : exits the program"
 end
 
-def list(my_songs)
+def list(songs)
 
   my_songs.keys.each do |song|
     puts song
