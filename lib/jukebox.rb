@@ -19,3 +19,10 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits the program"
 end
+def list(my_songs)
+  #this method is different! Collect the keys of the my_songs hash and
+  #list the songs by name
+  my_songs.keys.each do |song|
+    puts song
+  end
+end
