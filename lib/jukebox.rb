@@ -22,7 +22,7 @@ end
 
 def list(songs)
 
-  my_songs.keys.each do |song|
+  songs.keys.each do |song|
     puts song
   end
 end
